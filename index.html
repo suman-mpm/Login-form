@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login Form</title>
+    <style>
+        form {
+            width: 400px;
+            height: 500px;
+            background-color: #08508b;
+            box-shadow: 5px 5px 10px;
+            border-radius: 5px;
+            margin: 2% auto;
+            padding: 20px;
+        }
+
+        .input_box {
+            width: 250px;
+            height: 49px;
+            padding: 15px;
+            border-radius: 0px 5px 5px 0px;
+            border: none;
+            margin-left: -4px;
+        }
+
+        .form_icon {
+            background-color: white;
+            Padding: 14px;
+            border-radius: 5px 0px 0px 5px;
+            padding-bottom: 17px;
+        }
+
+        .form_icon_right {
+            background-color: white;
+            Padding: 14px;
+            padding-top: ;
+            border-radius: 0px 5px 5px 0px;
+            padding-bottom: 17px;
+            margin-left: -4px;
+        }
+
+        .log_in {
+            color: black;
+            width: 300px;
+            height: 50px;
+            padding: 0 20px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .sign_up {
+            background: #B8F2E6;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <h2 style="text-align:center;color:white">Log In</h2>
+            <p style="text-align:center;color:gray;">Login here using Username and Password</p>
+            <span class="form_icon"><i class="fa fa-user-circle" aria-hidden="true"></i></span>
+            <input type="text" class="input_box" placeholder="Enter Username" required>
+            <br><br> <span class="form_icon"><i class="fa fa-key" aria-hidden="true"></i></span>
+            <input style="border-radius:0px 0px 0px 0px;width:210px;" type="password" class="input_box"
+                placeholder="Enter Passord" required>
+            <span class="form_icon_right"> <i class="fa fa-eye" aria-hidden="true"></i></span>
+            <br> <br>
+            <button class="log_in"> Log In </button>
+            <br><br>
+            <button class="sign_up">Sign Up
+                <i class="fa fa-user-plus" aria-hidden="true"></i>
+            </button>
+        </form>
+    </div>
+</body>
+
+</html>
